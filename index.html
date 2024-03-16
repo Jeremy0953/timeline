@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 你可以在这里添加任何其他的头部信息或链接 -->
+</head>
+<body>
+    <div id="timeline-embed"></div>
+    <script type="text/javascript">
+        var timeline_config = {
+            width:              '100%',
+            height:             '600',
+            source:             'source.json',
+            embed_id:           'timeline-embed',
+            start_at_end:       false,
+            start_at_slide:     '4',
+            start_zoom_adjust:  '3',
+            hash_bookmark:      true,
+            font:               'Bevan-PotanoSans',
+            debug:              true,
+            lang:               'fr',
+            maptype:            'watercolor'
+            // 注意: css 和 js 字段被省略，使用默认样式和脚本
+        }
+    </script>
+    <script type="text/javascript" src="https://bucket-1308872143.cos.ap-beijing.myqcloud.com/storyjs-embed.js"></script>
+</body>
+</html>

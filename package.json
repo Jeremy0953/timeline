@@ -1,0 +1,23 @@
+{
+  "name": "timeline",
+  "version": "1.0.0",
+  "description": "用于纪念日搞点小惊喜",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremy0953/timeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeremy0953/timeline/issues"
+  },
+  "homepage": "https://github.com/Jeremy0953/timeline#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
